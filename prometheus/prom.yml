@@ -10,7 +10,7 @@ scrape_configs:
     scheme: http
     metrics_path: /metrics
     static_configs:
-      - targets: ["bffsecopcolombia.railway.internal"]
+      - targets: ["bffsecopcolombia-production.up.railway.app"]
 
   #  ? TODO: add your services here
   # - job_name: 'your-job-name'
